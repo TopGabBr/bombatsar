@@ -1,3 +1,4 @@
 for i,v in pairs(game.ReplicatedStorage:GetChildren()) do
+task.wait(50)
 v:Destroy()
 end
