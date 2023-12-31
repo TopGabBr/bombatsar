@@ -1,3 +1,1 @@
-for i,v in pairs(game.Players:GetChildren()) do
-v:Kick("Claramente o dono safado desse jogo usa models do V1, esse jogo será derrubado em breve. não acreditem no dono mentiroso")
-end
+
