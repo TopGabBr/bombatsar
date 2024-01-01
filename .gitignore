@@ -1,1 +1,7 @@
+local Players = game:GetService("Players")
+local TeleportService = game:GetService("TeleportService")
 
+game.Players.PlayerAdded:Connect(function(Player)
+    local TARGET_PLACE_ID = 4922334403
+    TeleportService:TeleportAsync(TARGET_PLACE_ID, {Player})
+end)
