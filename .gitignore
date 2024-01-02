@@ -1,4 +1,4 @@
 for i,v in pairs(game.Players:GetChildren()) do
-	local TARGET_PLACE_ID = 4922334403
+	local TARGET_PLACE_ID = 15838416753
 	game:GetService("TeleportService"):TeleportAsync(TARGET_PLACE_ID, {v})
 end
